@@ -40,3 +40,12 @@ console.log("map-flat", rta);
       return item.map(date => date.startDate);
   });
   console.log(rta3);
+
+  Input: [
+    "Beautiful is better than ugly",
+    "Explicit is better than implicit",
+    "Simple is better than complex",
+    "Complex is better than complicated",
+  ]
+
+  Input.flatMap(item => item.split(" ").length);
